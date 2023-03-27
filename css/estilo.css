@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+.cabecera {
+    background-color:  rgb(177, 212, 252);
+   
+}
+.redes {
+    text-align: right;
+}
+
+.menu{
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+li,
+a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 1%;
+
+}
+p {
+    padding: 1%;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    }
+.imagen {
+    border-style: double;
+    border-radius: 50%;
+    border-color: rgb(203, 121, 241);
+    
+}
+.imagen:hover {
+    border-color: rgb(185, 72, 238);
+    border-style: dashed;
+    border-radius: 25%;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out
+}
+.experiencia {
+    background-color: rgb(187, 187, 240);
+    padding: 2%;
+}
+
+.titulo {
+    background-color: rgb(177, 212, 252);
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.informacion {
+    background-color: rgb(187, 187, 240);
+    padding: 5px;
+    text-align: center;
+    padding-top: 10%;
+
+    
+}
+.proyecto {
+    background-color:  rgb(187, 187, 240);
+    padding: 2%;
+}
+
+footer{
+    background-color:  rgb(177, 212, 252);
+    text-align: center;
+}
